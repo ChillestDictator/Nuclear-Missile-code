@@ -1,1 +1,5 @@
-If (Enemy) then Explode(big)
+local function Explode(size)
+  boom.explosion.size = size
+end
+
+If (Enemy) then Explode(99999)
